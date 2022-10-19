@@ -163,6 +163,23 @@ ul li{
     background-color: rgb(10, 10, 48);
     padding: 3rem 0;
 }
+
+.flex11{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.item11{
+    flex-basis: 50%;
+}
+
+@media screen and (min-width: 450px){
+    .item11{
+        flex-basis: 25%;
+    }
+}
+
+
 @media screen and (min-width: 768px){
     .item-f{
         flex-basis: calc(100% / 5);
@@ -179,6 +196,15 @@ ul li{
         padding: 0;
     }
 
-
+    .container111 {
+        width: 80%;
+        margin: 0 auto;
+    }
 }
 
+@media screen and (min-width: 990px){
+    .container111 {
+        width: 60%;
+        margin: 0 auto;
+    }
+}
