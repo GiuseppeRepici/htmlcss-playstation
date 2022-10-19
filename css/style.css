@@ -173,6 +173,30 @@ ul li{
     flex-basis: 50%;
 }
 
+footer{
+    background-color: blue;
+    color: white;
+}
+
+footer ul{
+    list-style: none;
+}
+
+footer li{
+    margin-bottom: 10px;
+}
+
+#img10{
+    display: block;
+    height: 100%; 
+    margin-bottom: 1rem;
+ }
+
+ #img11{
+    display: block;
+    height: 50px; 
+ }
+
 @media screen and (min-width: 450px){
     .item11{
         flex-basis: 25%;
@@ -199,6 +223,14 @@ ul li{
     .container111 {
         width: 80%;
         margin: 0 auto;
+    }
+
+    .flexdopo{
+        display: flex;
+    }
+
+    .flexdopo ul{
+        flex-basis: calc(100% / 3);
     }
 }
 
