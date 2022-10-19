@@ -1,7 +1,10 @@
 #img1{
     height: 100%;
     display: block;
-    padding: 10px;
+    padding: 12px;
+    position: absolute;
+    top: 0;
+    right: 0;
 }
 
 .black{
@@ -9,5 +12,27 @@
 }
 
 .sectionh1{
-    height: 30px;
+    height: 40px;
+    position: relative;
 }
+
+.sectionh2{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.sezionih{
+    display: none;
+}
+
+.sezionih ul{
+    display: flex;
+    list-style: none;
+}
+
+ul li{
+    margin-right: 5px;
+}
+
+
