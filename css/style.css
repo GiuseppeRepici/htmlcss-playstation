@@ -35,4 +35,34 @@ ul li{
     margin-right: 5px;
 }
 
+.sect1{
+    background-image: url("../img/jumbo-bg.png");
+    height: 670px;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.sect1 .row{
+    height: 100%;
+}
+.sect1 h1 , .sect1 p{
+    color: aliceblue;
+}
+
+#img2{
+    display: block;
+    width: 50%;
+}
+
+#img3{
+    display: block;
+    width: 90%;
+    margin: 0 auto;
+    aspect-ratio: 2/1;
+    padding: 10px;
+    border-radius: 2rem;
+}
+
+
+
 
