@@ -143,6 +143,26 @@ ul li{
     width: 100%; 
  }
 
+ .sect9 h1{
+    margin: 0 auto;
+    font-size: 40px;
+ }
+
+ .sect9 p{
+    font-size: 22px;
+    margin: 0 auto;
+ }
+
+ #img9{
+    display: block;
+    width: 100%; 
+    padding: 10px;
+ }
+
+ .sect10{
+    background-color: rgb(10, 10, 48);
+    padding: 3rem 0;
+}
 @media screen and (min-width: 768px){
     .item-f{
         flex-basis: calc(100% / 5);
@@ -155,7 +175,7 @@ ul li{
         display: block;
     }
 
-    .sect8{
+    .sect8, .sect10{
         padding: 0;
     }
 
