@@ -63,6 +63,31 @@ ul li{
     border-radius: 2rem;
 }
 
+.sect3 p{
+    margin: 0 auto;
+}
+
+#img4{
+    width: 100%;
+    display: block;
+}
+
+.item-f{
+    flex-basis: calc(100% / 3);
+}
+
+.item-f span{
+    display: none;
+}
 
 
+@media screen and (min-width: 768px){
+    .item-f{
+        flex-basis: calc(100% / 5);
+    }  
+    .item-f span{
+        display: block;
+    }
+
+}
 
