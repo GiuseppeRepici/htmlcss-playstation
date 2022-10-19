@@ -119,6 +119,30 @@ ul li{
     display: block;
     width: 100%;
 }
+
+.sect8{
+    background-color: gray;
+    padding: 3rem 0;
+}
+
+#img7{
+   display: block;
+   width: 60%; 
+}
+
+.cont11{
+    height: 100%;
+}
+
+.none1{
+    display: none;
+}
+
+#img8{
+    display: block;
+    width: 100%; 
+ }
+
 @media screen and (min-width: 768px){
     .item-f{
         flex-basis: calc(100% / 5);
@@ -126,6 +150,15 @@ ul li{
     .item-f span{
         display: block;
     }
+
+    .none1{
+        display: block;
+    }
+
+    .sect8{
+        padding: 0;
+    }
+
 
 }
 
