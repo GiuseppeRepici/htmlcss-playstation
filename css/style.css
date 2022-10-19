@@ -107,7 +107,18 @@ ul li{
 .round{
     border-radius: 2rem;
 }
+.hhh{
+    font-size: 40px;
+}
+.ppp{
+    font-size: 22px;
+    margin-bottom: 0;
+}
 
+#img6{
+    display: block;
+    width: 100%;
+}
 @media screen and (min-width: 768px){
     .item-f{
         flex-basis: calc(100% / 5);
