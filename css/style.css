@@ -80,6 +80,22 @@ ul li{
     display: none;
 }
 
+.sect5{
+    background-image: url("../img/it-takes-two-hero-banner-desktop.jpg");
+    height: 670px;
+    background-position: center;
+    background-repeat: no-repeat;
+    color: white;
+}
+
+#img5{
+    width: 60%;
+    display: block;
+}
+
+.sect5 h1{
+    font-size: 40px;
+}
 
 @media screen and (min-width: 768px){
     .item-f{
