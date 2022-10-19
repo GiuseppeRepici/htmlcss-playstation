@@ -1,3 +1,13 @@
-.colorblack{
-    color: black;
+#img1{
+    height: 100%;
+    display: block;
+    padding: 10px;
+}
+
+.black{
+    background-color: black;
+}
+
+.sectionh1{
+    height: 30px;
 }
