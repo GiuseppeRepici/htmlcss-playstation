@@ -29,10 +29,44 @@
 .sezionih ul{
     display: flex;
     list-style: none;
+    margin: auto 0;
+}
+
+.bottone1{
+    border: 1px black solid;
+    background-color: black;
+    color: white;
+    border-radius: 2rem;
+    padding: 3px;
+    margin-right: 20px;
 }
 
 ul li{
     margin-right: 5px;
+    
+}
+.listah1{
+    margin: auto 0;
+    display: flex;
+    margin-left: -20px;
+}
+
+.listah{
+    margin: auto 0;
+    display: flex;
+    margin-left: 45px;
+}
+
+#img1111{
+    height: 100%;
+    display: block;
+    margin-left: 4px;
+}
+
+.listah2{
+    margin: auto 0;
+    display: flex;
+    margin-right: 27px;
 }
 
 .sect1{
@@ -238,5 +272,21 @@ footer li{
     .container111 {
         width: 60%;
         margin: 0 auto;
+    }
+
+    .sezionih{
+        display: block;
+    }
+
+    .menu-container{
+        display: none;
+    }
+
+    .sectionh2{
+        justify-content: unset;
+    }
+
+    .r-h{
+        justify-self: right;
     }
 }
