@@ -97,6 +97,10 @@ ul li{
     border-radius: 2rem;
 }
 
+#img3:hover .border1{
+    border: 2px solid black;
+}
+
 .sect3 p{
     margin: 0 auto;
 }
